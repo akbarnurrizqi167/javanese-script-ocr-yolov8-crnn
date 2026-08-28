@@ -177,7 +177,7 @@ upload github/
 | `ctc_utils.py` | Konversi charset dan CTC greedy decoding |
 | `deployment_config.json` | Path bobot, checksum SHA-256, threshold, dan konfigurasi inference |
 | `requirements.txt` | Dependensi Python untuk lokal dan Streamlit Cloud |
-| `packages.txt` | Pustaka sistem `libgl1` yang diperlukan OpenCV pada Streamlit Cloud |
+| `packages.txt` | Pustaka sistem `libgl1` dan GLib Trixie yang diperlukan OpenCV pada Streamlit Cloud |
 | `models/` | Bobot final dan charset |
 
 ---
