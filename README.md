@@ -1,4 +1,4 @@
-# OCR Aksara Jawa - Streamlit App Eksperimen Jurnal
+# OCR Aksara Jawa - Streamlit App
 
 Aplikasi web berbasis **Streamlit** untuk mendeteksi kata target pada citra manuskrip Sasradiningrat II dan mengenali transliterasi Latinnya menggunakan pipeline **YOLOv8n + CRNN + CTC greedy decoding**.
 
