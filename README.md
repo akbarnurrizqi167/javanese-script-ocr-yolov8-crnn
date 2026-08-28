@@ -2,7 +2,7 @@
 
 Aplikasi web berbasis **Streamlit** untuk mendeteksi kata target pada citra manuskrip Sasradiningrat II dan mengenali transliterasi Latinnya menggunakan pipeline **YOLOv8n + CRNN + CTC greedy decoding**.
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit)]()
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit)](https://javanese-script-ocr.streamlit.app/)
 
 > Tautan badge sengaja dikosongkan. Setelah deployment selesai, isi tanda kurung `()` dengan URL aplikasi Streamlit.
 
