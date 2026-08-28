@@ -1,0 +1,20 @@
+{
+  "status": "STREAMLIT_DEPLOYMENT",
+  "models": {
+    "yolo_weights": "models/yolov8n_clean_split_v1_best.pt",
+    "yolo_sha256": "d47b57778bfbb74c8ab5f40505f76b359a9eabbe2db2639b0bdb9f747680e564",
+    "crnn_weights": "models/crnn_direct_resize_v1_best.pt",
+    "crnn_sha256": "3dff05540ad835afbfd58099388276e511a8264893576bd8846cea7fce4ceb0d"
+  },
+  "pipeline": {
+    "confidence_threshold": 0.25,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "max_det": 300,
+    "crop_margin": 0.0,
+    "crnn_preprocessing": "direct_resize",
+    "reading_order": "baseline_center_v2",
+    "line_center_tolerance": 0.6,
+    "line_min_vertical_overlap": 0.2
+  }
+}
