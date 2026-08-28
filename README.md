@@ -158,7 +158,6 @@ upload github/
 |-- ctc_utils.py
 |-- deployment_config.json
 |-- requirements.txt
-|-- packages.txt
 |-- README.md
 `-- models/
     |-- yolov8n_clean_split_v1_best.pt
@@ -177,7 +176,6 @@ upload github/
 | `ctc_utils.py` | Konversi charset dan CTC greedy decoding |
 | `deployment_config.json` | Path bobot, checksum SHA-256, threshold, dan konfigurasi inference |
 | `requirements.txt` | Dependensi Python untuk lokal dan Streamlit Cloud |
-| `packages.txt` | Dependensi sistem Linux yang dipasang Streamlit Cloud |
 | `models/` | Bobot final dan charset |
 
 ---
